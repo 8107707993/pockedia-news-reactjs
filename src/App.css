@@ -35,4 +35,10 @@
   to {
     transform: rotate(360deg);
   }
+  
 }
+hr.hr {
+  border-top: 6px solid rgba(255, 255, 255,);
+}
+
+
