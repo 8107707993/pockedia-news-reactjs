@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Footer extends Component {
     render() {
         return (
-            <div className="container-fluid bg-secondary text-light my-3">
+            <div className="container-fluid bg-secondary  text-light mt-3">
                  <br/><br/> 
                  <div className="row my-3">
                      <div className="col-md-2">
@@ -92,7 +92,7 @@ export class Footer extends Component {
                  </div>
                  <hr className="hr"/>
                  <div className="container gx-5">© 2021 Company, Inc. All rights reserved.</div>
-                 <br/><br/><br/> <br/><br/>
+                 <br/><br/><br/>
             </div>
         )
     }
