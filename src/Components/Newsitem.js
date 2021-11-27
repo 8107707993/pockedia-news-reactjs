@@ -21,7 +21,7 @@ export class Newsitem extends Component {
               </p>
               <p className="card-text">
                 By: {!author ? "Unknown" : author}{" "}
-                <span class="badge bg-success">{source}</span>
+                <span className="badge bg-success">{source}</span>
               </p>
               <a
                 href={newsUrl}

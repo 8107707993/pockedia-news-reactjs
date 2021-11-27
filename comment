@@ -1,0 +1,99 @@
+{/* Right fixed tag start here */}
+        {/* <div className="  d-flex justify-content-end " style={{zIndex:"1"}}>
+                    <h5 className="text-light p-3 border-bottom mb-2 mt-2 bg-secondary shadow-lg rounded-start position-fixed font-family-sans-serif" style={{zIndex:"1"}}>Page <span className="text-danger text-nowrap">{this.state.page}</span></h5>
+            </div>  */}
+
+
+  {/* <div className="d-flex justify-content-between container">
+            <button
+              type="button"
+              disabled={this.state.page <= 1}
+              className="btn btn-secondary shadow rounded"
+              onClick={this.handelPrevClick}
+            >
+              &laquo; Previous
+            </button>
+            <button
+              type="button"
+              disabled={
+                this.state.page + 1 >
+                Math.ceil(this.state.totalResults / this.props.pageSize)
+              }
+              className="btn btn-secondary shadow rounded"
+              onClick={this.handelNextClick}
+            >
+              Next &raquo;
+            </button>
+          </div> */}
+
+
+
+        
+//   handelNextClick = async () => {
+//     if (
+//       !(
+//         this.state.page + 1 >
+//         Math.ceil(this.state.totalResults / this.props.pageSize)
+//       )
+//     ) {
+//       let url = `https://newsapi.org/v2/top-headlines?country=${
+//         this.props.country
+//       }&category=${
+//         this.props.category
+//       }&apiKey=daeec696b84f44979221f0e82d5267fb&page=${
+//         this.state.page + 1
+//       }&pageSize=${this.props.pageSize}`;
+//       this.setState({ loading: true });
+//       let data = await fetch(url);
+//       let parsedata = await data.json();
+//       // console.log(parsedata);
+//       this.setState({
+//         page: this.state.page + 1,
+//         articles: parsedata.articles,
+//         loading: false,
+//       });
+//     }
+//   };
+
+//   handelPrevClick = async () => {
+//     let url = `https://newsapi.org/v2/top-headlines?country=${
+//       this.props.country
+//     }&category=${
+//       this.props.category
+//     }&apiKey=daeec696b84f44979221f0e82d5267fb&page=${
+//       this.state.page - 1
+//     }&pageSize=${this.props.pageSize}`;
+//     this.setState({ loading: true });
+//     let data = await fetch(url);
+//     let parsedata = await data.json();
+//     // console.log(parsedata);
+//     this.setState({
+//       page: this.state.page - 1,
+//       articles: parsedata.articles,
+//       loading: false,
+//     });
+//   };
+
+// The OMDb API     
+// Here is your key: c8bdad91
+
+// Please append it to all of your API requests,
+
+// OMDb API: http://www.omdbapi.com/?i=tt3896198&apikey=c8bdad91
+
+// Click the following URL to activate your key: http://www.omdbapi.com/apikey.aspx?VERIFYKEY=eb5585ee-ad67-4123-bf69-31f5c139ee7e
+
+
+  // fetchMoreData = async() => {
+  //   this.setState({ page: this.state.page + 1})
+  //   let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=daeec696b84f44979221f0e82d5267fb&page=1&pageSize=${this.props.pageSize}`;
+  //   this.setState({ loading: true });
+  //   let data = await fetch(url);
+  //   let parsedata = await data.json();
+  //   this.setState({
+  //     articles: this.state.articles.concat(parsedata.articles),
+  //     totalResults: parsedata.totalResults,
+
+  //   });
+  // };
+
